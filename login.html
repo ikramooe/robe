@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Starter Kit | Connexion</title>
+
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light d-flex justify-content-center col-12" style="padding-bottom: 0;height: 50px;border-bottom: 1px solid rgba(255, 255, 255, 0.15);">
+        <div class="mx-xl-4 w-100 d-flex py-1" style="border-bottom: 1px solid #e6e6e6;">
+            <div class="d-flex mx-auto mx-sm-0 gap-3">
+                <a href="login.html" class="text-top">
+                    Connexion
+                </a>
+                <a href="inscription.html" class="text-top">
+                    Inscription
+                </a>
+            </div>
+            <div class="social-wrapper d-sm-flex d-none mt-n2 ms-auto">
+                <div class="social-icons col-3 d-flex mt-2">
+                    <a href="#"><i class="fab fa-facebook-f" style="border-radius: 30px;padding: 8px 10px;color: #3b5998;"></i></a>
+                    <a href="#"><i class="fab fa-twitter" style="border-radius: 30px;padding: 8px;color: #1da1f2;"></i></a>
+                    <a href="#"><i class="fab fa-instagram" style="border-radius: 30px;padding: 8px 10px;color: #d94981;"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in" style="border-radius: 30px;padding: 8px 10px;color: #0178B2;"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header-anim p-0 w-100 col-12 d-flex flex-column align-items-center bg-white" style="z-index: 91007;">
+        <div class="d-flex col-12">
+            <a class="d-sm-flex d-none navbar-brand p-lg-4 px-4 me-0 logo-c-top position-relative" href="/" style="z-index: 67110;">
+                <img src="../assets/images/orc-twil.png" alt="Logo" class="img-fluid logo-top" style="object-fit: contain;">
+            </a>
+            <nav class="navbar navbar-expand-lg px-2 px-lg-0 position-relative navbar-light d-lg-none ms-auto" style="padding-bottom: .5rem !important;">
+                <a class="d-sm-none navbar-brand p-lg-4 px-4 me-0 logo-c-top position-relative" href="/" style="z-index: 67110;">
+                    <img src="../assets/images/orc-twil.png" alt="Logo" class="img-fluid logo-top" style="object-fit: contain;">
+                </a>
+                <button class="navbar-toggler ms-2 me-3 d-block d-lg-none order-last" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 99;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-4 order-lg-1" id="mainNav">
+                    <div class="d-lg-flex w-100">
+                        <ul class="navbar-nav">
+                            <li class="nav-item me-xl-4">
+                                <a class="nav-link fs-6 text-header" href="/" style="font-weight: 500;">
+                                    Accueil
+                                </a>
+                            </li>
+                            <li class="nav-item me-xl-4 drop-show position-relative">
+                                <a class="dropdown-toggle nav-link fs-6 ps-0 text-header d-flex" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="font-weight: 500;">
+                                    <div class="d-flex align-items-center flex-column">
+                                        Nos Produits
+                                    </div>
+                                </a>
+                                <ul class="dropdown-menu drop-categ  w-max" aria-labelledby="dropdownMenuButton1" style="left: -100%;">
+                                    <div class="d-lg-flex flex-wrap">
+                                        <div>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Veste</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Pantalon</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Imperméables</a>
+                                            </li>
+                                        </div>
+                                        <div>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+
+                                                    Jouets</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Hygiène</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Loisirs et Divertissement</a>
+                                            </li>
+                                        </div>
+                                        <div>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Jouets</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Hygiène</a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                    Loisirs et Divertissement</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+                            <li class="nav-item me-xl-4">
+                                <a class="nav-link fs-6 ps-0 text-header ps-0" href="contact.html" style="font-weight: 500;">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="search dropdown dropdown-search-wrap ms-auto me-3 order-4 d-lg-none" style="position: initial;">
+                    <a class="rounded-circle dropdown-search" href="#" role="button" id="dropdownSearch" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="bi bi-search" style="font-size: 1.3rem;"></i>
+                    </a>
+                    <div class="dropdown-menu mt-3 border-0 rounded shadow" aria-labelledby="dropdownSearch" style="transform: translateX(5%);width: 80vw;">
+                        <form class="form-inline menu-search mx-auto">
+                            <div class="input-group position-relative p-3">
+                                <input class="form-control search-form d-block" type="search" placeholder="Chercher" aria-label="Chercher" style="max-width: unset; ">
+                                <button onclick="location.href = '/recherche.html';" class="d-block border-0 btn  position-absolute" style="top: 27%;right: 18px;border-radius: 50%;z-index: 9;" type="button">
+                                    <i class="bi bi-search search-drop"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <select name="lang" id="" class="form-select order-5 form-control w-max h-auto ms-lg-auto border-0 clr-777" style="cursor: pointer;">
+                    <option value="001">Français</option>
+                    <option value="002">Arabe</option>
+                </select>
+            </nav>
+            <div class="d-lg-flex flex-column d-none w-100">
+
+                <div class="d-lg-flex d-none">
+                    <div class=" me-auto ms-lg-3">
+
+                        <form class="form-inline menu-search mx-auto">
+                            <div class="input-group position-relative p-3 w-max">
+                                <input class="form-control search-form d-block rounded ps-5" type="search" placeholder="Chercher" aria-label="Chercher" style="border: 1px solid #e6e6e6">
+                                <button class="d-block border-0 btn  position-absolute" style="top: 27%;left: 18px;border-radius: 50%;z-index: 9;cursor: default;" type="button">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                                <input name="submit" type="submit" class=" btn btn-ms rounded submit-btn text-white position-absolute" value="Chercher" style="right: 23px;padding-bottom: 28px;height: 35px;z-index: 12;top: 50%; transform: translateY(-50%);">
+                            </div>
+                        </form>
+
+                    </div>
+                    <div class="d-xl-flex d-none align-items-center">
+                        <div class="d-flex align-items-center me-4">
+                            <img src="../assets/images/call-icon.png" alt="" class="me-3">
+                            <div class="d-flex flex-column justify-content-around">
+                                <h6 style="font-weight: 600;">777 77 77 77</h6>
+                                <p class="m-0 fs-15">Appelez nous</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <img src="../assets/images/mail-icon.png" alt="" class="me-3">
+                            <div class="d-flex flex-column justify-content-around">
+                                <h6 style="font-weight: 600;">Ain naadja</h6>
+                                <p class="m-0 fs-15">Retrouvez nous</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-container d-flex ms-auto align-items-center">
+                        <div class="account dropdown me-3 me-xl-4">
+                            <a href="#" role="button" id="dropdownAccount" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="bi bi-person text-black" style="font-size: 1.5rem;"></i>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownAccount" style="transform: translateX(-40%);">
+                                <a class="dropdown-item" href="account.html">Mon Compte</a>
+                                <a class="dropdown-item" href="connection.html">Se Déconnecter</a>
+                            </div>
+                        </div>
+                        <div class="wishlist position-relative me-3 me-xl-4">
+                            <a href="wishlist.html"><i class="bi bi-heart text-black " style="font-size: 1.5rem;"></i>
+                                <span class="badge-s position-absolute">3</span>
+                            </a>
+                        </div>
+                        <div class="cart me-xl-3  d-lg-block d-none position-relative" style="margin-top: -2px;">
+                            <a class="d-flex position-relative dropdown-cart" href="#">
+                                <i class="bi bi-bag text-black me-4" style="font-size: 1.5rem;"></i>
+                                <span class="badge-s2 position-absolute">3</span>
+                            </a>
+                            <div class="position-absolute shadow cart-drop bg-white" style="top: 60px;left: -325px;z-index: 9;">
+                                <div class="p-4">
+                                    <div class="mt-3 d-flex align-items-center pb-2" style="border-bottom: 1px solid #e6e6e6;">
+                                        <img class="me-2" src="../assets/images/chair-1-640-copy.png" alt="" width="80" style="object-fit: contain;">
+                                        <div class="d-flex flex-column ms-3 me-auto">
+                                            <a href="produit-details.html">Titre du produit</a>
+                                            <p class="clr-333 fw-600">3 x 3500.00 DA</p>
+                                        </div>
+                                        <i class="bi bi-trash ms-2"></i>
+                                    </div>
+                                    <div class="mt-3 d-flex align-items-center pb-2" style="border-bottom: 1px solid #e6e6e6;">
+                                        <img class="me-2" src="../assets/images/shirt-640-copy.png" alt="" width="80" style="object-fit: contain;">
+                                        <div class="d-flex flex-column ms-3 me-auto">
+                                            <a href="produit-details.html">Titre du produit</a>
+                                            <p class="clr-333 fw-600">4 x 3500.00 DA</p>
+                                        </div>
+                                        <i class="bi bi-trash ms-2"></i>
+                                    </div>
+                                    <div class="mt-3">
+                                        <div class="d-flex my-2 px-3 w-100">
+                                            <p class="fw-600">Total:</p>
+                                            <p class="ms-3 text-primary fw-600">10500.00 DA</p>
+                                        </div>
+                                        <div class="mx-3 d-flex">
+                                            <a class="btn-ms mb-2 border-25 text-center py-2 px-3 w-50 me-3" href="cart.html">Voir Panier</a>
+                                            <a class="btn-ms mb-2 border-25 text-center py-2 px-3 w-50" href="checkout.html">Facturation</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart me-xl-3 d-lg-none" style="margin-top: -2px;">
+                            <a class="d-flex position-relative" id="cart" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+                                <i class="bi bi-bag text-black me-4" style="font-size: 1.5rem;"></i>
+                                <span class="badge-s2 position-absolute">3</span>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="ps-lg-4 d-lg-block d-none" style="border-top: 1px solid #e6e6e6;width: calc(97% + 8px)">
+                    <nav class="navbar navbar-expand-lg px-2 px-lg-0 position-relative navbar-light " style="padding-bottom: .5rem !important;">
+                        <button class="navbar-toggler ms-2 me-3 d-block d-lg-none order-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation" style="z-index: 99;">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse order-4 order-lg-1" id="mainNav">
+                            <div class="d-lg-flex w-100">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item me-xl-4">
+                                        <a class="nav-link fs-6 text-header" href="/" style="font-weight: 500;">
+                                            Accueil
+                                        </a>
+                                    </li>
+                                    <li class="nav-item me-xl-4 drop-show position-relative">
+                                        <a class="dropdown-toggle nav-link fs-6 ps-0 text-header d-flex" href="#" role="button" aria-expanded="false" style="font-weight: 500;">
+                                            <div class="d-flex align-items-center flex-column">
+                                                Nos Produits
+                                            </div>
+                                        </a>
+                                        <ul class="dropdown-menu drop-categ  w-max" aria-labelledby="dropdownMenuButton1" style="left: -100%;">
+                                            <div class="d-lg-flex flex-wrap">
+                                                <div>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Veste</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Pantalon</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Imperméables</a>
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+
+                                                            Jouets</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Hygiène</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Loisirs et Divertissement</a>
+                                                    </li>
+                                                </div>
+                                                <div>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Jouets</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Hygiène</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item text-header my-2 clr-333 w-100" href="produits.html">
+                                                            Loisirs et Divertissement</a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item me-xl-4">
+                                        <a class="nav-link fs-6 ps-0 text-header ps-0" href="contact.html" style="font-weight: 500;">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <select name="lang" id="" class="form-select order-last form-control w-max h-auto ms-lg-auto border-0 clr-777" style="cursor: pointer;">
+                            <option value="001">Français</option>
+                            <option value="002">Arabe</option>
+                        </select>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h6 class="offcanvas-title" id="offcanvasExampleLabel">Il y'a <span class="text-primary mx-2">3</span>articles dans le panier</h6>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="mt-3 d-flex align-items-center pb-2" style="border-bottom: 1px solid #e6e6e6;">
+                    <img class="me-2" src="../assets/images/chair-1-640-copy.png" alt="" width="80" style="object-fit: contain;">
+                    <div class="d-flex flex-column ms-3 me-auto">
+                        <a href="produit-details.html">Titre du produit</a>
+                        <p class="clr-333">1 x 3500.00 DA</p>
+                    </div>
+                    <i class="bi bi-trash ms-2"></i>
+                </div>
+                <div class="mt-3 d-flex align-items-center pb-2" style="border-bottom: 1px solid #e6e6e6;">
+                    <img class="me-2" src="../assets/images/shirt-640-copy.png" alt="" width="80" style="object-fit: contain;">
+                    <div class="d-flex flex-column ms-3 me-auto">
+                        <a href="produit-details.html">Titre du produit</a>
+                        <p class="clr-333">1 x 3500.00 DA</p>
+                    </div>
+                    <i class="bi bi-trash ms-2"></i>
+                </div>
+                <div class="mt-3 d-flex align-items-center pb-2" style="border-bottom: 1px solid #e6e6e6;">
+                    <img class="me-2" src="../assets/images/hero-sofa-1.png" alt="" width="80" style="object-fit: contain;">
+                    <div class="d-flex flex-column ms-3 me-auto">
+                        <a href="produit-details.html">Titre du produit</a>
+                        <p class="clr-333">1 x 3500.00 DA</p>
+                    </div>
+                    <i class="bi bi-trash ms-2"></i>
+                </div>
+
+            </div>
+            <div class="mt-auto">
+                <div class="d-flex my-2 px-3 w-100">
+                    <p class="fw-bold">Total:</p>
+                    <p class="ms-auto text-primary">10500.00 DA</p>
+                </div>
+                <div class="mb-3 mx-3 d-flex flex-column">
+                    <a class="btn-ms mb-2 border-25 text-center py-2 px-3 w-100" href="cart.html">Voir Panier</a>
+                    <a class="btn-ms mb-2 border-25 text-center py-2 px-3 w-100" href="checkout.html">Facturation</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-5 breadcrumb-container d-flex flex-column justify-content-center position-relative" style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.4)), url('../assets/images/blue-bag2.jpg') center bottom;
+background-size: cover;padding: 55px 0;;overflow: hidden;height: 300px;">
+        <nav aria-label="breadcrumb" style="transform: translateY(90%);">
+            <div class="d-flex flex-column align-items-center">
+                <h2 style="color: #fff;">Connexion</h2>
+                <ol class="breadcrumb" style="background: unset;">
+                    <li class=""><a class="text-white" href="/">Accueil</a></li>
+                    <span class="mx-2 text-white">/</span>
+                    <li class="" style="color: #fff;" aria-current="page">Connexion</li>
+                </ol>
+            </div>
+        </nav>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10 col-md-8 col-lg-6 mx-auto">
+                <div class="card border-0 rounded-3 px-sm-4 px-0 my-5" style="background: #f5f5f5;">
+                    <div class="card-body px-4 pt-4 pb-3 px-sm-5 pt-sm-5 pb-sm-4">
+                        <h4 class="card-title mb-3 fw-light text-uppercase " style="color: #253D4E;">Se Connecter</h4>
+                        <div class="mb-5">
+                            <p>Vous n'avez pas de compte? <a href="inscription.html">S'Inscrire</a></p>
+                        </div>
+                        <form>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <input type="password" class="form-control" id="floatingPassword" placeholder="Mot de passe">
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
+                                <label class="form-check-label" for="rememberPasswordCheck">
+                                    Se souvenir de moi
+                                </label>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-primary btn-login text-uppercase text-white mt-3 py-3 col-12" type="submit">
+                                    Se Connecter
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer" class="section-padding position-relative" style="background: #F6F6F6;">
+        <div class="py-5 container position-relative">
+            <div class="row footer-center pt-2">
+                <div class="footer-map-container d-sm-block col-lg-4">
+                    <h5 class="text-black one pb-2" style="width: max-content;">Contactez-nous</h5>
+                    <div class="mt-2">
+                        <p class="clr-777 footer-desc fs-14 mb-2">Envoyez nous un message</p>
+                    </div>
+                    <div>
+                        <form class="position-relative w-max">
+                            <input type="text" class="form-control input-footer p-0" placeholder="Votre adresse mail" style="border-radius: 0;">
+                            <i class="bi bi-envelope-fill clr-777 position-absolute" style="top: 13px;right: 0;"></i>
+                        </form>
+                    </div>
+                    <div class="mt-4">
+                        <div class="d-flex">
+                            <i class="fas fa-paper-plane me-2 clr-777"></i>
+                            <p class="my-0">contact@orcloud.dz</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="bi bi-telephone me-2 clr-777"></i>
+                            <p class="my-0">0793 739 573</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="bi bi-telephone me-2 clr-777"></i>
+                            <p class="my-0">0670 011 716</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="bi bi-geo-alt me-2 clr-777"></i>
+                            <p class="my-0">Ain Naadja,16065 Le Gué de Constantine</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" ms-lg-0 col-lg-2">
+                    <div class="footer-widget footer-link">
+                        <h5 class="text-black one pb-2" style="width: max-content;">Navigation</h5>
+                        <ul class="list-unstyled">
+                            <li class="mt-3 "><a class="text-header" href="#">Accueil</a></li>
+                            <li class="mt-2"><a class="text-header" href="produits.html">Nos Produits</a></li>
+                            <li class="mt-2"><a class="text-header" href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="ms-lg-0 col-lg-3">
+                    <div class="footer-widget footer-text">
+                        <h5 class="text-black one pb-2" style="width: max-content;">Nos Réseaux sociaux</h5>
+                        <ul class="list-unstyled">
+                            <li class="mt-2 fs-14">
+                                <a href="#" class="d-flex align-items-center text-header">
+                                    <i class="bi bi-facebook me-2 text-primary" style="font-size: 1.3rem;"></i>Facebook
+                                </a>
+                            </li>
+                            <li class="mt-2 fs-14">
+                                <a href="#" class="d-flex align-items-center text-header">
+                                    <i class="bi bi-twitter me-2 text-primary" style="font-size: 1.3rem;"></i>Twitter
+                                </a>
+                            </li>
+                            <li class="mt-2 fs-14">
+                                <a href="#" class="d-flex align-items-center text-header">
+                                    <i class="bi bi-instagram me-2 text-primary" style="font-size: 1.3rem;"></i>Instagram
+                                </a>
+                            </li>
+                            <li class="mt-2 fs-14">
+                                <a href="#" class="d-flex align-items-center text-header">
+                                    <i class="bi bi-linkedin me-2 text-primary" style="font-size: 1.3rem;"></i>Linkedin
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" ms-lg-0 col-lg-3">
+                    <div class="footer-widget footer-link">
+                        <h5 class="text-black one pb-2" style="width: max-content;">Map</h5>
+                        <div class="map-footer mt-2" style="height: 220px;">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5736174459007!2d3.0826035152873223!3d36.70878267996754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128fadae211261fd%3A0x75db15dec911d09d!2sORCLOUD!5e0!3m2!1sen!2sdz!4v1623496288086!5m2!1sen!2sdz" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="py-2">
+            <p class="text-center text-primary">&copy; 2022 Orcloud</p>
+        </div>
+    </footer>
+    <a href="#" class="cd-top cd-top-def" id="backTop"></a>
+
+    <script src="assets/js/app.bundle.js"></script>
+
+
+    <script>
+        $(function() {
+            $(window).scroll(function() {
+                var scroll = $(window).scrollTop();
+                if (scroll >= 100) {
+                    $(".header-anim").addClass('stick-100');
+                } else {
+                    $(".header-anim").removeClass("stick-100");
+                }
+            });
+        });
+    </script>
+    <script>
+        $('.dropdown-cart').click(function() {
+            if ($('.cart-drop').is(':visible')) {
+                $('.cart-drop').hide();
+            } else {
+                $('.cart-drop').show();
+            }
+        });
+    </script>
+</body>
+
+</html>
