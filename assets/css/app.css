@@ -28,18 +28,18 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #3bb77e;
+  --bs-primary: #c7b664;
   --bs-secondary: #6c757d;
-  --bs-tertiary: #2aa66d;
-  --bs-success: #198754;
+  --bs-tertiary: #c7b664;
+  --bs-success: #c7b664;
   --bs-info: #f86a9a;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 59, 183, 126;
+  --bs-primary-rgb: 199,182,100;
   --bs-secondary-rgb: 108, 117, 125;
-  --bs-tertiary-rgb: 42, 166, 109;
+  --bs-tertiary-rgb: 199,182,100;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 248, 106, 154;
   --bs-warning-rgb: 255, 193, 7;
@@ -8411,7 +8411,7 @@ textarea.form-control-lg {
     display: none !important; } }
 
 :root {
-  --main-clr: #3bb77e;
+  --main-clr: #c7b664;
   --sec-clr: #2aa66d;
   --ter-clr: #fff;
   --sm: 575px;
@@ -8599,9 +8599,7 @@ li::marker {
   height: 80px;
   max-width: 240px; }
 
-@media (min-width: 992px) {
-  .logo-c-top {
-    border-right: 1px solid #e6e6e6; } }
+
 
 .slide-home-title {
   width: 80%;
